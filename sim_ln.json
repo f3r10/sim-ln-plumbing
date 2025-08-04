@@ -1,0 +1,30 @@
+{
+  "sim_network": [
+    {
+      "scid": 1,
+      "capacity_msat": 100000,
+      "node_1": {
+        "pubkey": "0344f37d544896dcc95a08ddd9bdfc2b756bf3f91b3f65bce588bd9d0228c24977",
+	"alias": "alias1",
+        "max_htlc_count": 1000,
+        "max_in_flight_msat": 250000,
+        "min_htlc_size_msat": 1000,
+        "max_htlc_size_msat": 100000000,
+        "cltv_expiry_delta": 1,
+        "base_fee": 200,
+        "fee_rate_prop": 0
+      },
+      "node_2": {
+        "pubkey": "020a30431ce58843eedf8051214dbfadb65b107cc598b8277f14bb9b33c9cd026f",
+	"alias": "alias2",
+        "max_htlc_count": 15,
+        "max_in_flight_msat": 100000,
+        "min_htlc_size_msat": 1,
+        "max_htlc_size_msat": 50000,
+        "cltv_expiry_delta": 80,
+        "base_fee": 2000,
+        "fee_rate_prop": 500
+      }
+    }
+  ]
+}
